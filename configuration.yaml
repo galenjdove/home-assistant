@@ -2,27 +2,13 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-# http:
-#   base_url: example.duckdns.org:8123
-
-    
-
-
-# Sensors
-sensor:
-  # Weather prediction
-  - platform: yr
-
-# Text to speech
-tts:
-  - platform: google_translate
-
 # Single Files
-group: !include groups.yaml
 automation: !include automations.yaml
-script: !include scripts.yaml
 
 # Directories
 homeassistant: !include_dir_merge_named homeassistant/
 zwave: !include_dir_merge_named zwave/
+tts: !include_dir_merge_list tts/
+group: !include_dir_merge_named group/
+script: !include_dir_merge_named script/
+sensor: !include_dir_merge_list sensor/
