@@ -7,13 +7,7 @@ default_config:
 #   base_url: example.duckdns.org:8123
 
     
-homeassistant:
-  name: Home
-  latitude: !secret homeassistant_latitude
-  longitude: !secret homeassistant_longitude
-  elevation: !secret homeassistant_elevation
-  unit_system: imperial
-  time_zone: America/New_York
+
 
 # Sensors
 sensor:
@@ -24,6 +18,11 @@ sensor:
 tts:
   - platform: google_translate
 
+# Single Files
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+# Directories
+homeassistant: !include_dir_merge_named homeassistant/
+zwave: !include_dir_merge_named zwave/
