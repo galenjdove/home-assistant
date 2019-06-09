@@ -17,3 +17,6 @@ secrets.txt
 lib
 deps
 tts
+.HA_VERSION
+.storage/
+node-red/
