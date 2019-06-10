@@ -3,7 +3,7 @@ automation: !include automations.yaml
 
 # Radios
 zwave: !include_dir_merge_named zwave/
-zha: !include_dir_merge_named zigbee/
+# zha: !include_dir_merge_named zigbee/
 
 # Cloud Services
 sense: !include_dir_merge_named sense/
