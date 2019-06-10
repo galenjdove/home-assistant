@@ -1,0 +1,5 @@
+- platform: generic
+  name: Driveway
+  still_image_url: http://192.168.1.138:7080/api/2.0/snapshot/camera/5a761a13e4b0d1012e0ff9aa?force=true&apiKey=FTJNhGh8b2O7bQ8ma5hp0bCxWycWeuTn
+  stream_source: rtsp://192.168.1.138:7447/5a761a13e4b0d1012e0ff9aa_0
+  verify_ssl: false
