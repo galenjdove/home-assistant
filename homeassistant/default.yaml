@@ -4,3 +4,4 @@ longitude: !secret homeassistant_longitude
 elevation: !secret homeassistant_elevation
 unit_system: imperial
 time_zone: America/New_York
+packages: !include_dir_named packages
