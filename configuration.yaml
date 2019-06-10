@@ -20,3 +20,4 @@ sensor: !include_dir_merge_list sensor/
 logger: !include_dir_merge_named logger/
 camera: !include_dir_merge_list camera/
 discovery: !include_dir_merge_named discovery/
+device_tracker: !include_dir_merge_list device_tracker/

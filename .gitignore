@@ -21,3 +21,4 @@ tts
 .HA_VERSION
 .storage/
 node-red/
+.google_maps_location_sharing.cookies*
