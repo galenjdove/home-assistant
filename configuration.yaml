@@ -1,16 +1,17 @@
-
-# Configure a default setup of Home Assistant (frontend, api, etc)
-default_config:
-
 # Single Files
 automation: !include automations.yaml
 
+# Radios
+zwave: !include_dir_merge_named zwave/
+zha: !include_dir_merge_named zigbee/
+
+# Cloud Services
+sense: !include_dir_merge_named sense/
+
 # Directories
 homeassistant: !include_dir_merge_named homeassistant/
-zwave: !include_dir_merge_named zwave/
 tts: !include_dir_merge_list tts/
 group: !include_dir_merge_named group/
 script: !include_dir_merge_named script/
 sensor: !include_dir_merge_list sensor/
 logger: !include_dir_merge_named logger/
-zha: !include_dir_merge_named zigbee/
