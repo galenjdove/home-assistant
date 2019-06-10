@@ -1,3 +1,6 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
 # Single Files
 automation: !include automations.yaml
 
@@ -6,7 +9,7 @@ zwave: !include_dir_merge_named zwave/
 zha: !include_dir_merge_named zigbee/
 
 # Cloud Services
-# <Broken For now: https://community.home-assistant.io/t/sense-energy-monitor-enhanced-to-include-devices/57572/48> sense: !include_dir_merge_named sense/
+sense: !include_dir_merge_named sense/
 
 # Directories
 homeassistant: !include_dir_merge_named homeassistant/
@@ -15,3 +18,4 @@ group: !include_dir_merge_named group/
 script: !include_dir_merge_named script/
 sensor: !include_dir_merge_list sensor/
 logger: !include_dir_merge_named logger/
+camera: !include_dir_merge_list camera/
