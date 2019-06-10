@@ -3,10 +3,10 @@ automation: !include automations.yaml
 
 # Radios
 zwave: !include_dir_merge_named zwave/
-# zha: !include_dir_merge_named zigbee/
+zha: !include_dir_merge_named zigbee/
 
 # Cloud Services
-sense: !include_dir_merge_named sense/
+# <Broken For now: https://community.home-assistant.io/t/sense-energy-monitor-enhanced-to-include-devices/57572/48> sense: !include_dir_merge_named sense/
 
 # Directories
 homeassistant: !include_dir_merge_named homeassistant/
