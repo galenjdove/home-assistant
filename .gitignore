@@ -4,6 +4,7 @@
 *.crt
 *.key
 *.sqlite
+*.db
 
 OZW_Log.txt
 home-assistant.log
