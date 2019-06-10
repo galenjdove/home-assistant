@@ -1,4 +1,4 @@
-name: Home
+name: Dove Home
 latitude: !secret homeassistant_latitude
 longitude: !secret homeassistant_longitude
 elevation: !secret homeassistant_elevation
