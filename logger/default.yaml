@@ -3,3 +3,4 @@ logs:
   homeassistant.components.zwave: debug
   homeassistant.components.camera: debug
   homeassistant.components.sense: critical
+  homeassistant.components.device_tracker: debug
