@@ -24,3 +24,4 @@ node-red/
 .google_maps_location_sharing.cookies*
 .cloud/
 plex.conf
+known_devices.yaml
