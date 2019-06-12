@@ -17,11 +17,11 @@
   longitude: !secret keene_long
   radius: !secret keene_radius
   icon: mdi:cash-marker
-  passive: false
+  passive: true
 
 - name: Wilmington
   latitude: !secret wilmington_lat
   longitude: !secret wilmington_long
   radius: !secret wilmington_radius
   icon: mdi:cash-marker
-  passive: false
+  passive: true
