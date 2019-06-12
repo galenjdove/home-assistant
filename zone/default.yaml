@@ -1,0 +1,27 @@
+- name: Daycare
+  latitude: 41.293663
+  longitude: -73.146163
+  radius: 150
+  icon: mdi:baby-buggy
+  passive: false
+
+- name: Sikorsky
+  latitude: 41.250412
+  longitude: -73.096743
+  radius: 250
+  icon: mdi:cash-marker
+  passive: false
+
+- name: Keene
+  latitude: 42.920597
+  longitude: -72.262639
+  radius: 12000
+  icon: mdi:cash-marker
+  passive: false
+
+- name: Wilmington
+  latitude: 42.604936
+  longitude: -71.158131
+  radius: 12000
+  icon: mdi:cash-marker
+  passive: false
