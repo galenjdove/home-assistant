@@ -1,27 +1,27 @@
 - name: Daycare
-  latitude: 41.293663
-  longitude: -73.146163
-  radius: 150
+  latitude: !secret daycare_lat
+  longitude: !secret daycare_long
+  radius: !secret daycare_radius
   icon: mdi:baby-buggy
   passive: false
 
 - name: Sikorsky
-  latitude: 41.250412
-  longitude: -73.096743
-  radius: 250
+  latitude: !secret sikorsky_lat
+  longitude: !secret sikorsky_long
+  radius: !secret sikorsky_radius
   icon: mdi:cash-marker
   passive: false
 
 - name: Keene
-  latitude: 42.920597
-  longitude: -72.262639
-  radius: 12000
+  latitude: !secret keene_lat
+  longitude: !secret keene_long
+  radius: !secret keene_radius
   icon: mdi:cash-marker
   passive: false
 
 - name: Wilmington
-  latitude: 42.604936
-  longitude: -71.158131
-  radius: 12000
+  latitude: !secret wilmington_lat
+  longitude: !secret wilmington_long
+  radius: !secret wilmington_radius
   icon: mdi:cash-marker
   passive: false
