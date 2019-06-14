@@ -16,4 +16,10 @@ device_config_glob:
     delay: 5
   switch.*:
     ignored: false
-    polling_intensity: 1  
+    polling_intensity: 1
+  # Making these show up as lights in light: section
+  switch.jasco_products_12722_on_off_relay_switch_*:
+    ignored: true
+    polling_intensity: 1
+    refresh_value: true
+    delay: 5
