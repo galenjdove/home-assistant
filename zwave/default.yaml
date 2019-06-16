@@ -13,7 +13,7 @@ device_config_glob:
     ignored: false
     polling_intensity: 1
     refresh_value: true
-    delay: 5
+    delay: 3
   switch.*:
     ignored: false
     polling_intensity: 1
@@ -22,4 +22,4 @@ device_config_glob:
     ignored: false
     polling_intensity: 1
     refresh_value: true
-    delay: 5
+    delay: 3
