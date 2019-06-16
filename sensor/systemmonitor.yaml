@@ -2,5 +2,11 @@
   resources:
     - type: disk_use_percent
       arg: /
-    - type: memory_free
+    - type: memory_use_percent
     - type: load_15m
+    - type: throughput_network_in
+      arg: bond0
+    - type: throughput_network_out
+      arg: bond0
+    - type: ipv4_address
+    - type: last_boot
