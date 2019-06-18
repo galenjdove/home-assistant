@@ -1,4 +1,0 @@
-- platform: uvc
-  nvr: !secret uvc_ip
-  key: !secret uvc_key
-  password: !secret uvc_password
