@@ -1,6 +1,6 @@
 default: info
 logs:
-  homeassistant.components.zwave: debug
-  homeassistant.components.camera: debug
+  homeassistant.components.zwave: critical
+  homeassistant.components.camera: critical
   homeassistant.components.sense: critical
-  homeassistant.components.device_tracker: debug
+  homeassistant.components.device_tracker: critical
