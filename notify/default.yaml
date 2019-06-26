@@ -1,0 +1,9 @@
+- name: telegram_galen
+  platform: telegram
+  chat_id: !secret telegram_bot_chat_1
+- name: telegram_christina
+  platform: telegram
+  chat_id: !secret telegram_bot_chat_2
+- name: telegram_group
+  platform: telegram
+  chat_id: !secret telegram_bot_chat_3
