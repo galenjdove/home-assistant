@@ -16,6 +16,11 @@ history: !include_dir_merge_named history/
 notify: !include_dir_merge_list notify/
 telegram_bot: !include_dir_merge_list telegram_bot/
 
+# Trackers
+device_tracker: !include_dir_merge_list device_tracker/
+zone: !include_dir_merge_list zone/
+life360: !include_dir_merge_named life360/
+
 # Directories
 homeassistant: !include_dir_merge_named homeassistant/
 tts: !include_dir_merge_list tts/
@@ -24,8 +29,6 @@ script: !include_dir_merge_named script/
 sensor: !include_dir_merge_list sensor/
 camera: !include_dir_merge_list camera/
 discovery: !include_dir_merge_named discovery/
-device_tracker: !include_dir_merge_list device_tracker/
-zone: !include_dir_merge_list zone/
 media_player: !include_dir_merge_list media_player/
 influxdb: !include_dir_merge_named influxdb/
 panel_iframe: !include_dir_merge_named panel_iframe/
