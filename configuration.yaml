@@ -4,17 +4,13 @@ default_config:
 # Single Files
 automation: !include automations.yaml
 
-# Radios
-zwave: !include_dir_merge_named zwave/
-zha: !include_dir_merge_named zigbee/
-
 # Cloud Services
 sense: !include_dir_merge_named sense/
 
 # Logging
-logger: !include_dir_merge_named logger/
-recorder: !include_dir_merge_named recorder/
-history: !include_dir_merge_named history/
+# logger: !include_dir_merge_named logger/
+# recorder: !include_dir_merge_named recorder/
+# history: !include_dir_merge_named history/
 
 # Notifications
 notify: !include_dir_merge_list notify/
