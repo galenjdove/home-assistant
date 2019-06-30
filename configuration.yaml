@@ -34,3 +34,4 @@ influxdb: !include_dir_merge_named influxdb/
 panel_iframe: !include_dir_merge_named panel_iframe/
 light: !include_dir_merge_list light/
 weather: !include_dir_merge_list weather/
+http: !include_dir_merge_named http/
