@@ -4,8 +4,8 @@ python: "3.6.4"
 
 before_install:
   - mv travis_secrets.yaml secrets.yaml
-  - sudo apt-get install -y libudev-dev
-  - sed -i 's/^stream:/#stream:/g' ./packages/stream.yaml
+  - rm -f ./packages/stream.yaml
+  - sed -i 's/^camera:/#camera:/g' configuration.yaml
 
 install:
   - pip3 install homeassistant
