@@ -12,16 +12,9 @@
   icon: mdi:cash-marker
   passive: false
 
-- name: Keene
-  latitude: !secret keene_lat
-  longitude: !secret keene_long
-  radius: !secret keene_radius
-  icon: mdi:cash-marker
-  passive: true
-
-- name: Wilmington
-  latitude: !secret wilmington_lat
-  longitude: !secret wilmington_long
-  radius: !secret wilmington_radius
+- name: Pitney Bowes
+  latitude: !secret pb_lat
+  longitude: !secret pb_long
+  radius: !secret pb_radius
   icon: mdi:cash-marker
   passive: true

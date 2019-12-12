@@ -1,6 +1,1 @@
 default: info
-logs:
-  homeassistant.components.zwave: critical
-  homeassistant.components.camera: critical
-  homeassistant.components.sense: critical
-  homeassistant.components.device_tracker: critical

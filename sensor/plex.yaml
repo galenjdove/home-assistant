@@ -1,3 +1,0 @@
-- platform: plex
-  host: !secret sensor_plex_host
-  port: 32400
