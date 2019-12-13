@@ -17,4 +17,4 @@
   longitude: !secret pb_long
   radius: !secret pb_radius
   icon: mdi:cash-marker
-  passive: true
+  passive: false
