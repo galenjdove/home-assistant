@@ -28,3 +28,4 @@ known_devices.yaml
 saved_assets/private/
 .automatic/
 OZW/
+custom_components/
