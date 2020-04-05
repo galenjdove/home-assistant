@@ -1,7 +1,7 @@
 - platform: generic
   name: Driveway
   still_image_url: !secret camera_driveway_image_url
-  mjpeg_url: !secret camera_driveway_stream_source 
+  stream_source: !secret camera_driveway_stream_source 
   verify_ssl: false
 - platform: mjpeg
   name: Alice
