@@ -1,13 +1,13 @@
-- platform: generic
+- platform: mjpeg
   name: Driveway
   still_image_url: !secret camera_driveway_image_url
   stream_source: !secret camera_driveway_stream_source 
   verify_ssl: false
-- platform: generic
+- platform: mjpeg
   name: Alice
   still_image_url: !secret camera_alice_image_url
   stream_source: !secret camera_alice_stream_source
-- platform: generic
+- platform: mjpeg
   name: Porch
   still_image_url: !secret camera_porch_image_url
   stream_source: !secret camera_porch_stream_source
