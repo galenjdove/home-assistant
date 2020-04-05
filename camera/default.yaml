@@ -13,3 +13,8 @@
   still_image_url: !secret camera_porch_image_url
   mjpeg_url: !secret camera_porch_stream_source
   verify_ssl: false
+- platform: mjpeg
+  name: Back Door
+  still_image_url: !secret camera_backdoor_image_url
+  mjpeg_url: !secret camera_backdoor_stream_source
+  verify_ssl: false
