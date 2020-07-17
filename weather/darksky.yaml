@@ -1,4 +1,3 @@
-weather:
-  - platform: darksky
-    api_key: 394c3c3e855e48e8c5496ce1594198fe
-    name: Dark Sky
+- platform: darksky
+  api_key: 394c3c3e855e48e8c5496ce1594198fe
+  name: Dark Sky

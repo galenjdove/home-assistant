@@ -1,0 +1,3 @@
+- host: !secret synology_host
+  username: !secret synology_username
+  password: !secret synology_password

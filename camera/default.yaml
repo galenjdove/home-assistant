@@ -1,20 +1,5 @@
-- platform: mjpeg
-  name: Driveway
-  still_image_url: !secret camera_driveway_image_url
-  mjpeg_url: !secret camera_driveway_stream_source 
-  verify_ssl: false
-- platform: mjpeg
-  name: Alice
-  still_image_url: !secret camera_alice_image_url
-  mjpeg_url: !secret camera_alice_stream_source
-  verify_ssl: false
-- platform: mjpeg
-  name: Porch
-  still_image_url: !secret camera_porch_image_url
-  mjpeg_url: !secret camera_porch_stream_source
-  verify_ssl: false
-- platform: mjpeg
-  name: Back Door
-  still_image_url: !secret camera_backdoor_image_url
-  mjpeg_url: !secret camera_backdoor_stream_source
+- platform: synology
+  url: !secret synology_host
+  username: !secret synology_username
+  password: !secret synology_password
   verify_ssl: false
