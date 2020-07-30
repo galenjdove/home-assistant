@@ -1,0 +1,47 @@
+- platform: rest
+  name: Statewide Covid Stats
+  resource: https://covidtracking.com/api/states?state=ct
+  json_attributes:
+    - date
+    - state
+    - positive
+    - negative
+    - pending
+    - hospitalizedCurrently
+    - hospitalizedCumulative
+    - inIcuCurrently
+    - inIcuCumulative
+    - onVentilatorCurrently
+    - onVentilatorCumulative
+    - recovered
+    - dataQualityGrade
+    - lastUpdateEt
+    - dateModified
+    - checkTimeEt
+    - death
+    - hospitalized
+    - dateChecked
+    - totalTestsViral
+    - positiveTestsViral
+    - negativeTestsViral
+    - positiveCasesViral
+    - deathConfirmed
+    - deathProbable
+    - fips
+    - positiveIncrease
+    - negativeIncrease
+    - total
+    - totalTestResults
+    - totalTestResultsIncrease
+    - posNeg
+    - deathIncrease
+    - hospitalizedIncrease
+    - hash
+    - commercialScore
+    - negativeRegularScore
+    - negativeScore
+    - positiveScore
+    - score
+    - grade
+  value_template: '{{ value_json.state }}'
+  scan_interval: 60
