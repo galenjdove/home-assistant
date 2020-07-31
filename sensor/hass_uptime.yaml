@@ -1,0 +1,4 @@
+- platform: uptime
+  name: HASS uptime
+  scan_interval: 60
+  unit_of_measurement: hours
