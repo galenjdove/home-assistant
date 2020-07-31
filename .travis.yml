@@ -6,6 +6,7 @@ before_install:
   - mv travis_secrets.yaml secrets.yaml
   - rm -f ./packages/stream.yaml
   - sed -i '/camera:/d' configuration.yaml
+  - sed -i '/badnest:/d' configuration.yaml
   - rm -f ./climate/badnest.yaml
   - rm -f ./sensor/badnest.yaml
 
