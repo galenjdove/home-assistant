@@ -68,12 +68,12 @@
     covid_update_state:
       friendly_name: 'last update Covid State'
       value_template: '{{ states.sensor.statewide_covid_stats.attributes["lastUpdateEt"] }}'
-    covid_hospitalizedCurrently_state:
-      friendly_name: 'last hospitalizedcurrently Covid State'
-      value_template: '{{ states.sensor.statewide_covid_stats.attributes["hospitalizedcurrently"] }}'
-    covid_deathIncrease_state:
-      friendly_name: 'last deathincrease Covid State'
-      value_template: '{{ states.sensor.statewide_covid_stats.attributes["deathincrease"] }}'
-    covid_hospitalizedIncrease_state:
-      friendly_name: 'last hospitalizedincrease Covid State'
-      value_template: '{{ states.sensor.statewide_covid_stats.attributes["hospitalizedincrease"] }}'
+    covid_hospitalizedcurrently_state:
+      friendly_name: 'last hospitalizedCurrently Covid State'
+      value_template: '{{ states.sensor.statewide_covid_stats.attributes["hospitalizedCurrently"] }}'
+    covid_deathincrease_state:
+      friendly_name: 'last deathIncrease Covid State'
+      value_template: '{{ states.sensor.statewide_covid_stats.attributes["deathIncrease"] }}'
+    covid_hospitalizedincrease_state:
+      friendly_name: 'last hospitalizedIncrease Covid State'
+      value_template: '{{ states.sensor.statewide_covid_stats.attributes["hospitalizedIncrease"] }}'
