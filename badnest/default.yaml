@@ -1,3 +1,0 @@
-user_id: !secret nest_user_id
-access_token: !secret nest_access_token
-region: us

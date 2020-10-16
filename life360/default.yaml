@@ -6,9 +6,6 @@ max_update_wait:
 show_as_state:
   - driving
   - moving
-  # Set comm error thresholds so first is not logged,
-  # second is logged as a WARNING, and third and fourth
-  # are logged as ERRORs.
 warning_threshold: 2
 error_threshold: 3
 accounts:
