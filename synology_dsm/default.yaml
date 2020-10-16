@@ -1,4 +1,4 @@
-- host: !secret synology_camera_host
-  username: !secret synology_username
-  password: !secret synology_password
-  ssl: false
+host: !secret synology_camera_host
+username: !secret synology_username
+password: !secret synology_password
+ssl: false
