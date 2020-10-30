@@ -1,4 +1,6 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
+# !include_dir_merge_list has - for each section
+# !include_dir_merge_named no -
 default_config:
 
 # Single Files
