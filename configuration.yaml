@@ -37,3 +37,4 @@ light: !include_dir_merge_list light/
 weather: !include_dir_merge_list weather/
 climate: !include_dir_merge_list climate/
 binary_sensor: !include_dir_merge_list binary_sensor/
+nest: !include_dir_merge_named nest/
