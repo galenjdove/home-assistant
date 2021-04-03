@@ -1,6 +1,6 @@
 language: python
 
-python: "nightly"
+python: "3.6"
 
 before_install:
   - mv travis_secrets.yaml secrets.yaml
