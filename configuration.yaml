@@ -37,8 +37,4 @@ light: !include_dir_merge_list light/
 weather: !include_dir_merge_list weather/
 climate: !include_dir_merge_list climate/
 binary_sensor: !include_dir_merge_list binary_sensor/
-nest:
-  client_id: !secret nest_client_id
-  client_secret: !secret nest_client_secret
-  project_id: !secret nest_project_id
-  subscriber_id: !secret nest_subscriber_id
+nest: !include_dir_merge_named nest/
