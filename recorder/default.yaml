@@ -1,1 +1,1 @@
-db_url: mysql://homeassistant:password@core-mariadb/homeassistant?charset=utf8
+db_url: !secret recorder_db
