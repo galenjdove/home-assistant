@@ -39,3 +39,4 @@ climate: !include_dir_merge_list climate/
 binary_sensor: !include_dir_merge_list binary_sensor/
 nest: !include_dir_merge_named nest/
 jq300: !include_dir_merge_named jq300/
+iaquk: !include_dir_merge_named iaquk/
