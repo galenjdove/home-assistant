@@ -6,6 +6,7 @@ before_install:
   - mv travis_secrets.yaml secrets.yaml
   - rm -f ./packages/stream.yaml
   - sed -i '/camera:/d' configuration.yaml
+  - sed -i '/jq300:/d' configuration.yaml
 
 install:
   - pip3 install homeassistant
