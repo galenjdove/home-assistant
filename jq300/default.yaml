@@ -1,2 +1,3 @@
 username: !secret jq300_username
 password: !secret jq300_password
+devices: jq300
