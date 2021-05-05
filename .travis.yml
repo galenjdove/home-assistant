@@ -7,6 +7,7 @@ before_install:
   - rm -f ./packages/stream.yaml
   - sed -i '/camera:/d' configuration.yaml
   - sed -i '/jq300:/d' configuration.yaml
+  - sed -i '/iaquk:/d' configuration.yaml
 
 install:
   - pip3 install homeassistant
