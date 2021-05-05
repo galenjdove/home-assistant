@@ -1,7 +1,7 @@
-jq300:
+jq01:
     sources:
-      humidity: sensor.jq300_humidity
-      co2: sensor.jq300_eco2
-      tvoc: sensor.jq300_tvoc
-      hcho: sensor.jq300_hcho
-      pm: sensor.jq300_pm25
+      humidity: sensor.jq01_humidity
+      co2: sensor.jq01_eco2
+      tvoc: sensor.jq01_tvoc
+      hcho: sensor.jq01_hcho
+      pm: sensor.jq01_pm25
